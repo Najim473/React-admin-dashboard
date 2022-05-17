@@ -1,0 +1,114 @@
+.app.dark{
+    background-color:  rgb(15, 14, 14);
+    color: rgb(248, 246, 246);
+    .sidebar{
+        background: rgb(15, 14, 14);
+        .top{
+            span{
+                color: #ffffff;
+            }
+        }
+    }
+    .navbar{
+        .search {
+            border: 1px solid rgb(179, 182, 179);            
+            input {             
+                width: 180px;
+                padding: 2px;
+               
+            }        
+        }
+    }
+    .widget{ 
+        box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+        -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+    }
+    .featured{ 
+        box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+        -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+    
+    }
+    .chart{
+        box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+        -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+        .chartGrid{
+            stroke: rgb(172, 175, 172);
+        }       
+    }
+    .table{
+        box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+        -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+        .tableCell{
+      background: rgb(70, 68, 68);
+      color: #ffffff;
+               }               
+           } 
+           .single{
+ 
+            .singleContainer{
+         
+                .top{
+                    box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+                    -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+                    .left{
+                        border-right: .5px solid #272626;
+                    }
+                }
+                .bottom{
+                    box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+                    -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+                }
+            }
+            }
+.Datatable{
+    box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+    -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+    .link{
+        color: #ffffff;
+    }
+    .tableGrid{
+               .tabledataGrid{
+            color:#d3cdcd;
+        }
+    }
+ 
+    .cellWithStatus{
+        padding: 5px ;
+            border-radius: 5px;
+            &.Active{
+                color: rgb(15, 226, 15);
+                background-color: rgba(189,189,3,0.103);
+            }
+            &.Pending{
+             color: rgb(245, 179, 11);
+             background-color: rgba(189,189,3,0.103);
+         }
+         &.Passive{
+            color: red;
+            background-color: rgba(189,189,3,0.103);
+            
+        }
+    }
+    .cellAction{
+    
+        .viewButton{          
+            color: rgb(23, 227, 241);        
+        }
+        .deleteButton{          
+            color: red;         
+        }
+    }
+ 
+}
+.newContainer{
+    .bottom{
+ 
+        .right{
+            box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(129, 124, 124, 0.3) 0px 30px 60px -30px;
+            -Webkit-box-shadow: rgba(243, 241, 241, 0.1) 0px 1px 1px 0px inset, rgba(43, 43, 46, 0.25) 0px 50px 100px -20px, rgba(104, 100, 100, 0.3) 0px 30px 60px -30px;
+            padding: 10px;
+        }
+    }
+}
+ 
+}

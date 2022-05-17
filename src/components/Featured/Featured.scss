@@ -1,0 +1,69 @@
+.featured{
+    flex: 2;
+    padding: 10px;
+    // font-size: 30px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    -Webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;   
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    .featuredchart{   
+       width: 100px;
+       height: 100px;
+    }
+    .title{
+        font-size: 15px;
+        // color: ;
+        font-weight: 100;
+    }
+    .amount{
+        font-size: 22px;
+    }
+    .desc{
+        font-size: 12px;
+        font-weight: 100;
+        // text-align: center ;
+        text-align-last: center;
+    }
+    .summary{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        .itemTitle{
+            font-size: 15px;
+            font-weight: 100;
+        }
+        .itemResult{
+            display: flex;
+            padding: 20px 0px;
+            align-items: center;
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+            .downIcon{
+                font-size: 18px;
+            }
+            .resultAmount{
+                font-size: 14px;                
+            }
+        }
+    }
+}
+}

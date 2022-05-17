@@ -1,0 +1,86 @@
+ .sidebar{
+     flex: 1;
+     border-right: .5px solid lightgray;
+     min-height: 100vh;
+     .top{
+         height: 50px;
+         display: flex;
+         font-weight: 600;
+        //  background: rgb(219, 148, 82);
+         align-items: center;
+         justify-content: space-evenly;
+        //  color:#ffffff;
+        img{
+            width: 45px;
+            height: 30px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+         .logoText{
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             font-size: 15px;
+             display: flex;
+             align-items: center;      
+            cursor: pointer;
+
+         }
+     }
+     hr{
+         height: 0%;
+         border: .5px solid lightgray;
+     }
+     .center{
+         padding-left: 10px;
+         ul{
+             list-style: none;
+             padding: 0%;
+             margin: 0%;
+             .title{
+                 font-size: 10px;
+                 font-weight: bold;
+                 margin-top: 15px;
+                 margin-bottom: 5px;
+             }
+             li{
+                 display: flex;
+                 align-items: center;
+                 padding: 5px;
+                 cursor: pointer;
+                 &:hover{
+                     background: rgb(217, 224, 224);
+                 }
+                 .icon{
+                     font-size: 20px;
+                     margin-right: 5px;
+                     color: rgb(44, 168, 177);                    
+                 }
+                 span{
+                     font-size: 15px;
+                     color: rgb(33, 115, 121);
+                     
+                 }                 
+             }
+         }
+     }
+     .bottom{
+         display: flex;    
+         padding: 10px;
+         .colorOption{
+             width: 20px;
+             height: 20px;
+             cursor: pointer;
+             border: .2px solid gray;             
+             margin: 5px;
+             &:nth-child(1){
+                 background: whitesmoke;
+             }
+             &:nth-child(2){
+                 margin-left: 20px;
+                 background: #333;
+                 
+             }             
+         }
+     }
+ }
+
+ 
